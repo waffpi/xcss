@@ -1,0 +1,10 @@
+[package]
+name = "xcss"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "xcss"
+path = "src/lib.rs"
