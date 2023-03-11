@@ -1,15 +1,17 @@
 # Xcss
 
-Rust Package to Convert the Xpath selectors to CSS selector.
+🦀Rust Package to Convert the Xpath selectors to CSS selector.
 
 
 ## Usage
 
 ```rust
+use xcss::xcss;
+
 fn main() {
-    let xpath = "//*[@id='foo']";
-    let css_selector = xcss::xcss(xpath);
-    println!("{}", css_selector);
+    let xpath = "/html/body/div[2]/section[1]";
+    let css = xcss::xcss(xpath);
+    println!("{}", css);
 }
 
 ```
