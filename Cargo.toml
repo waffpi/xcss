@@ -2,6 +2,10 @@
 name = "xcss"
 version = "0.1.0"
 edition = "2021"
+authors = "xinnypie"
+description = "Rust Package to Convert the Xpath selectors to CSS selector"
+repository = "https://github.com/xinnypie/xcss"
+
 
 [dependencies]
 
