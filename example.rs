@@ -1,4 +1,3 @@
-mod xcss;
 
 fn main() {
     let xpath = "//*[@id='foo']";
